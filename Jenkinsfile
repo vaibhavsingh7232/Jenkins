@@ -12,5 +12,8 @@ pipeline {
                     sh 'echo "Sapid" '
         }
     }
+         stage('Display enrollment number') {
+                steps{
+                    sh 'echo "enrollmentnumber" '
 }
 }
